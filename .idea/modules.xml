@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java Senior IO/Java Senior IO.iml" filepath="$PROJECT_DIR$/Java Senior IO/Java Senior IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Senior network/Java Senior network.iml" filepath="$PROJECT_DIR$/Java Senior network/Java Senior network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSenior/JavaSenior.iml" filepath="$PROJECT_DIR$/JavaSenior/JavaSenior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSenior collection/JavaSenior enum.iml" filepath="$PROJECT_DIR$/JavaSenior collection/JavaSenior enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSenior generic/JavaSenior generic.iml" filepath="$PROJECT_DIR$/JavaSenior generic/JavaSenior generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic proxy/dynamic proxy.iml" filepath="$PROJECT_DIR$/dynamic proxy/dynamic proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enum/enum.iml" filepath="$PROJECT_DIR$/enum/enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java  jichu/java  jichu.iml" filepath="$PROJECT_DIR$/java  jichu/java  jichu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newexer/newexer.iml" filepath="$PROJECT_DIR$/newexer/newexer.iml" />
+    </modules>
+  </component>
+</project>
