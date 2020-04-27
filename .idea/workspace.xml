@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc54c6e-e56a-483a-a34f-ed0b582ccf34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bash.exe.stackdump" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java  jichu/src/com/constructor/ConstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java  jichu/com/constructor/ConstructorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java  jichu/com/constructor/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/reflection/target/" />
@@ -100,7 +103,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java  jichu/src/com/constructor/ConstructorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state>
               <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <element signature="e#475#476#0" expanded="true" />
@@ -264,7 +267,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587353277279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587354501072" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -430,7 +433,7 @@
       <workItem from="1584930284243" duration="2634000" />
       <workItem from="1587129627292" duration="1852000" />
       <workItem from="1587168975692" duration="5208000" />
-      <workItem from="1587353011215" duration="264000" />
+      <workItem from="1587353011215" duration="978000" />
     </task>
     <task id="LOCAL-00001" summary="0321">
       <created>1584797497116</created>
@@ -482,7 +485,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353800000" />
+    <option name="totallyTimeSpent" value="354514000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -495,9 +498,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8227848" visible="true" weight="0.21380697" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8227848" visible="true" weight="0.21380697" />
       <window_info id="Structure" order="1" sideWeight="0.17721519" side_tool="true" visible="true" weight="0.21380697" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,7 +508,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.042432815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.28045326" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.42492917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,7 +516,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5056657" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.27015558" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.042432815" />
       <window_info anchor="bottom" id="Problems" order="13" />
@@ -987,7 +989,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java  jichu/src/com/constructor/ConstructorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state>
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="e#475#476#0" expanded="true" />
