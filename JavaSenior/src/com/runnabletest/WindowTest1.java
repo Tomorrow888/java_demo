@@ -1,5 +1,7 @@
 package com.runnabletest;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author jiajinshuo
  * @create 2020-01-03 21:01
@@ -12,15 +14,22 @@ class Window1 implements Runnable{
     //Object obj = new Object();
     @Override
     public void run() {
-        synchronized(this) {//不能用匿名对象，因为要共享同一把锁
-            while (true) {
+        while (true){
+            synchronized(Window1.class) {//不能用匿名对象，因为要共享同一把锁
+                try {
+                    TimeUnit.MILLISECONDS.sleep(300);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 if (tickets > 0) {
                     System.out.println(Thread.currentThread().getName() + "\t" + tickets);
                     tickets--;
                 } else {
                     break;
                 }
+
             }
+
         }
 
 

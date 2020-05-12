@@ -1,5 +1,7 @@
 package com.threadexer2;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author jiajinshuo
  * @create 2020-01-03 20:17
@@ -12,16 +14,25 @@ class Window extends Thread{
 
     @Override
     public void run() {
-        while (true){
+
             synchronized (Window.class) {
-                if (tickets > 0) {//只是当前窗口票不是100，其它两个窗口还是100。每个对象100总共300
-                    System.out.println(getName() + "票号为：" + tickets);
-                    tickets--;
-                } else {
-                    break;
+                try {
+                    TimeUnit.MILLISECONDS.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                // 不能把while(true)放在里面
+                while (true){
+                    if (tickets > 0) {//只是当前窗口票不是100，其它两个窗口还是100。每个对象100总共300
+                        System.out.println(getName() + "票号为：" + tickets);
+                        tickets--;
+                    } else {
+                        break;
+                    }
+                }
+
             }
-        }
+
     }
 }
 

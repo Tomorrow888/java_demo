@@ -1,7 +1,5 @@
 package com.qlu.collection;
 
-import java.util.Objects;
-
 /**
  * @author jiajinshuo
  * @create 2020-01-08 18:17
@@ -44,17 +42,17 @@ public class Person {
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return age == person.age &&
-                Objects.equals(name, person.name);
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (o == null || getClass() != o.getClass()) return false;
+//        Person person = (Person) o;
+//        return age == person.age &&
+//                Objects.equals(name, person.name);
+//    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(age, name);
-    }
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(age, name);
+//    }
 }
